@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+
+#content {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-around;
+
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color: antiquewhite;
+  justify-content: space-around;
+}
+
+.nav-bar{
+  border: 1px solid black;
+  padding: 2px;
+}
+
+h1{
+  position: relative;
+  align-self: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo{
+  max-width: 80%;
+  max-height: 800px;
+  position: relative;
+  align-self: center;
+}
+
+.about{
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  align-self: center;
+  text-align: center;
+}
