@@ -25,6 +25,11 @@ nav {
   padding: 2px;
 }
 
+.nav-bar:hover{
+  background-color: aliceblue;
+  cursor: crosshair;
+}
+
 h1{
   position: relative;
   align-self: center;
